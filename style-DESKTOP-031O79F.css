@@ -1,0 +1,540 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/background.jpg);
+    height: 200vh;
+    background-size: cover;
+    background-position:center;
+  
+}
+ul {
+    padding-top: 50px;
+    float: center;
+    margin-top: 5px;
+    font-size: 16px;
+   
+
+}
+ ul li {
+    display: inline-block;
+    
+    
+ }
+ 
+ ul li a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.5s;
+
+ }
+
+ ul li a:hover {
+    background-color: #fff;
+    color: #000;
+ }
+
+  .logo img {
+    float:left;
+    width: 150px;
+    height:auto;
+  }
+.main {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.iphone14 {
+    display: block;
+    margin-left: 350px;
+    width: 80px;
+    padding-top: 150px;
+    
+   
+}
+
+
+
+
+.iphone14-text {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left:150px;
+    width: 230px;
+    color: #fff;
+}
+.iphone14-button {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 26px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+
+}
+.iphone14-button:hover {
+    cursor: pointer;
+    width: 110px;
+    font-size: 15;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+}
+.iphone14-button:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+
+.iphone13  {
+    display: block;
+    width: 500px;
+    margin-left: 350px;
+    margin-top: 55px;
+    
+}    
+.iphone13-text {
+display: inline-block;
+font-family: Arial;
+font-weight: bold;
+font-size: 30px;
+margin-top: -20px;
+margin-left: 515px;
+width: 230px;
+color: white;
+}
+
+.iphone13-btn {
+    display: block;
+    margin-left: 570px;
+    margin-top: 22px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+}
+
+.iphone13-btn:hover {
+
+ cursor: pointer;
+width: 110px;
+font-size: 15;
+box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+}
+.iphone13-btn:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+
+.container {
+    margin-top: 33px;
+}
+
+.title {
+
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 250px;
+    margin-left: 600px;
+    margin-top: 350px;
+    width: 300px;
+
+}
+.aboutus-title {
+    color: white;
+    font-family: Arial;
+    padding-top:  250px;
+    margin-left: 450px;
+    text-align: left;
+    font-size: 35px;
+    
+    
+}
+
+.aboutus-p {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.aboutus-help {
+  color: #fff;
+  font-family: Arial;
+  font-size: 35px;
+  margin-left: 380px;
+}
+
+.aboutus-info {
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin-right: 70px;
+}
+.contactus-link {
+    color: white;
+    font-family: Arial;
+    margin-left: 530px;
+    
+}
+
+.watch1 {
+    display: block;
+    width: 150px;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+.watch1-p {
+ display: inline-block;
+font-family: Arial;
+font-weight: bold;
+font-size: 30px;
+margin-top: 5px;
+margin-left: 60px;
+width: 315px;
+color: white;
+}
+
+.watch1-button {
+    display: block;
+    margin-left: 169px;
+    margin-top: 22px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+}
+
+.watch1-button:hover {
+    cursor: pointer;
+    width: 110px;
+    font-size: 15px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+}
+
+.watch1-button:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+.watch2 {
+    display: block;
+    width: 450px;
+    margin-top: 200px;
+    margin-left: 320px;
+
+}
+
+
+.watch2-text {
+
+ display: inline-block;
+font-family: Arial;
+font-weight: bold;
+font-size: 30px;
+margin-top: 5px;
+margin-left: 400px;
+width: 340px;
+color: white;
+
+}
+
+.watch2-button {
+    display: block;
+    margin-left: 500px;
+    margin-top: 22px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+
+
+}
+.watch2-button:hover {
+    cursor: pointer;
+    width: 110px;
+    font-size: 15px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+
+}
+
+.watch2-button:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+.accessories {
+    margin-left: 270px;
+    margin-top: 110px;
+}
+
+
+.charger-image {
+    display: block;
+    margin-left: 650px;
+    margin-top: 150px;
+    width:300px;
+
+}
+
+.charger-text {
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 90px;
+    width: 350px;
+    color: white;
+}
+
+.charger-btn {
+    display: block;
+    margin-left: 196px;
+    margin-top: 22px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: #fff;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+
+}
+.charger-btn:hover {
+    cursor: pointer;
+    width: 110px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+}
+.charger-btn:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+.airpods-image {
+  width: 150px;
+  margin-left:650px;
+ 
+}
+
+.airpods-text {
+
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -15px;
+    margin-left: 85px;
+    width: 350px;
+    color: white;
+
+}
+
+.airpods-button {
+
+
+        display: block;
+        margin-left: 200px;
+        margin-top: 22px;
+        width: 100px;
+        height: 25px;
+        border: 0;
+        background-color: grey;
+        color: #fff;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #000;
+        border-radius: 20px;
+        transition: 0.25s;
+        font-size: 13px;
+
+
+}
+
+
+.airpods-button:hover {
+    cursor: pointer;
+    width: 110px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+    
+}
+.airpods-button:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+.samsung22-container {
+    display: block;
+
+
+}
+.samsung22 {
+    margin-left: 550px;
+    margin-top: 200px;
+    width: 250px;
+
+}
+.samsung22-text {
+
+    display: block;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 110px;
+    width: 350px;
+    color: white;
+
+}
+.samsung22-button {
+
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 26px;
+    width: 100px;
+    height: 25px;
+    border: 0;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #000;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-size: 13px;
+ 
+ 
+}
+
+.samsung22-button:hover {
+    cursor: pointer;
+    width: 110px;
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 255);
+    
+}
+.samsung22-button:active {
+    background-color: rgb(212, 212, 212) ;
+}
+
+.logos {
+ 
+}
+
+h1 {
+    font-size: 35px;
+    display: block;
+    text-align: left;
+    margin-left: 25px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+h3{
+    font-size: 17px;
+    display: block;
+    text-align: left;
+    margin-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:white;
+    margin-left: 25px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    margin-left: 25px;
+    margin-top: 30px;
+
+}
+
+span {
+    color: rgb(209, 175, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span:hover{
+    cursor:pointer;
+}
+
+.service {
+    display: inline-block;
+    margin-top: 35px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    height: 120px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 0.25s;
+    margin-bottom: 50px;
+    
+}
+
+.box {
+    text-align: center;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    
+}
+
+.contact-info {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.service:hover {
+    width:315px;
+    height: 135px;
+    cursor: pointer;
+}
+
